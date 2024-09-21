@@ -59,7 +59,10 @@ export default function How_Works(){
 
                         <p className="mt-5"> Lorem ipsum dolor sit amet, <br></br> consectetur adipiscing elit. Sed sed.</p>
                         <div className="mt-5">
-                            <a className="text-purple-900 mt-5"><Link href="#" >Ream More ></Link></a>
+                            <a className="text-purple-900 mt-5"><Link href="#" >
+                                <span>Ream More{" > "}</span>
+                            
+                            </Link></a>
                         </div>
 
                     </div>
