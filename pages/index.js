@@ -1,9 +1,35 @@
+import Navbar from "../Components/Navbar"
+import Cont from "../Components/Cont"
+import How_Works from "../Components/How_Works"
+import Serviço from "../Components/Serviço"
+import Footer from "../Components/Footer"
+
+
+import Head from 'next/head'
 export default function Home() {
   return (
-    <div className="bg-green-950 w-screen h-98">
-      <h1 className="text-3xl font-bold underline text-white">
-        Hello world!
-      </h1>
-    </div>
+    <>
+      <div>
+  
+        <Navbar />
+
+        <Cont />
+        <How_Works />
+        <Serviço />
+
+        <Footer />
+
+       
+       
+        
+
+        <Head>
+        <link rel="shortcut icon" href="./NavBar/email.png" />
+        <title>Lading Page</title>
+        </Head>
+      </div>
+      
+
+    </>
   )
 }
